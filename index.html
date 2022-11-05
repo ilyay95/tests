@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Расшифровка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form name="pageform">
+        <div class="row">
+            <div class="col-md">
+                <h3>Вставьте код для расшифровки:</h3>
+                <textarea rows="11" id="input-text" name="code" class="form-control"></textarea><br />
+                <input onclick="myFunction()" value="Расшифровать!" class="btn btn-success" />
+            </div>
+            <div class="col-md">
+                <h3>Расшифрованный код:</h3>
+                <textarea rows="11" readonly="readonly" name="ecode" class="form-control"
+                    id="output-text"></textarea><br />
+            </div>
+        </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
